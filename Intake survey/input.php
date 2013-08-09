@@ -1,7 +1,7 @@
 <?php
 //Variable Declaration and sanitation
-            $username = "delongj";
-            $password = "c00lsh1t";
+            $username = "root";
+            $password = "adgqet";
             $hostname = "localhost";
             $message = "Please enter your first and last name";
             $fname = mysql_real_escape_string(filter_input(INPUT_POST, "fname"));
